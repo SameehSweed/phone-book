@@ -1,0 +1,106 @@
+
+/******* body/main styles *****/
+
+/**  the container that contain all the persons* */
+.contacts-container {
+    font-family: 'Uchen', serif;
+    flex-grow: 1;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.308);
+  }
+  
+.app-main{
+  background-color: rgba(255, 255, 255, 0.308);
+}
+  /** main/header configuration */
+  .app-main-header ul {
+    display: grid;
+    list-style: none;
+    grid-template-columns: minmax(20%, auto) repeat(2, 10%);
+  }
+  
+  img{
+    max-block-size: 50px;
+
+  }
+  /**all the buttons in body/main styles */
+  button {
+    border-radius: 50px;
+    background-color:rgba(255, 255, 255, 0.897);
+    border: 2px black solid;
+  }
+  
+
+  /***** all the inputs in body/main styles */
+  input {
+    border-radius: 5px;
+    font-weight: 600;
+  }
+
+
+  /*****all the images in body/main styles */
+  img {
+    height: 70px;
+    width: 70px;
+    border-radius: 15px;
+    border: 2px black solid;
+  }
+
+
+  /*****the card that contain details about the person */
+  .contacts-container li {
+    font-size: 1.3rem;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    display: grid;
+    list-style: none;
+    justify-content: center;
+    grid-gap: 8px;
+    align-items: center;
+    grid-template-columns: repeat(2, 80px) repeat(1, 1fr) repeat(
+        3,
+        minmax(40px, auto)
+      );
+  }
+  
+
+  /***** when we dont have persons we show this message {styles} */
+  .nocontacts-foundmessage{
+    text-align: center;
+  }
+  
+
+  /** showdetails window styles */
+  .istheshow-open{
+    display: flex;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 20px;
+    border: 2px black solid;
+    background-color: rgb(88, 88, 88);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    width: 20%;
+    padding: 20px;
+  }
+  
+
+  /*** x button in showdetails window styles */
+  .x{
+    width:100%;
+    display: flex;
+    justify-content: end;
+  }
+
+  /******* image in showdetails window styles */
+  .imageinshow{
+    width:100px;
+    height: 100px;
+  
+  }
+  
+  

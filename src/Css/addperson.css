@@ -1,0 +1,50 @@
+/*** addperson/edit component styles ***/
+/*** body configuration ***/
+.formaddnewperson {
+  display: flex;
+  left: 0;
+  right: 0;
+  border: 2px black solid;
+  background-color: rgb(88, 88, 88);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  width: 20%;
+  min-width: 150px;
+  padding: 20px;
+  border-radius: 20px;
+  z-index: 99;
+  margin: auto;
+  min-height: 50vh;
+}
+
+/**all the inputs styles */
+.formaddnewperson input {
+  display: block;
+  margin-bottom: 15px;
+  width: 80%;
+  margin: auto;
+  border-bottom: 3px solid rgb(4, 67, 104);
+  border-radius: 10px;
+}
+.formaddnewperson h1 {
+  display: flex;
+  justify-content: center;
+}
+.formaddnewperson label {
+  display: flex;
+  justify-content: center;
+}
+
+/*** buttons styles */
+
+.btnadd {
+  max-width: 70px;
+  border: none;
+}
+.btncancel {
+  text-align: center;
+  max-width: 55px;
+  border: none;
+}
